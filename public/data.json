@@ -1,0 +1,437 @@
+[
+  {
+    "image": "https://i.ibb.co.com/Lhz3sN2G/unnamed.png",
+    "title": "TaskFlow Pro",
+    "companyName": "NextGen Labs",
+    "id": 1,
+    "description": "TaskFlow Pro is your personal productivity companion that helps you organize your work and daily goals with ease. It offers intelligent reminders, smart tagging, and progress tracking tools to help you stay on top of your tasks. You can collaborate with team members in real time and share updates instantly. Its clean and modern interface makes task management a pleasant experience. Whether you are managing a big project or your daily to-do list, TaskFlow Pro makes everything smoother and more efficient.",
+    "size": 58,
+    "reviews": 1520,
+    "ratingAvg": 4.5,
+    "downloads": "0.05M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://example.com/img2.png",
+    "title": "FitBuddy",
+    "companyName": "ActiveWorks",
+    "id": 2,
+    "description": "FitBuddy helps you build healthy habits through personalized workouts, meal planning, and AI-based coaching. It tracks your progress automatically and adjusts routines based on your energy levels. The app includes daily motivation, community challenges, and smart notifications to keep you consistent. You can sync with smartwatches and compare stats with friends for extra fun. FitBuddy ensures fitness becomes an easy and enjoyable part of your everyday lifestyle.",
+    "size": 64,
+    "reviews": 3280,
+    "ratingAvg": 4.7,
+    "downloads": "0.12M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 2270 }
+    ]
+  },
+  {
+    "image": "https://example.com/img3.png",
+    "title": "PhotoPro Studio",
+    "companyName": "PixelMaster",
+    "id": 3,
+    "description": "PhotoPro Studio is a complete editing suite designed for both amateurs and professionals. You can enhance images, apply filters, and adjust every detail with precision. It offers advanced AI retouching tools that automatically balance colors and fix imperfections. Batch editing and instant social media export make content creation faster than ever. With its intuitive interface, you can turn ordinary pictures into stunning artworks within seconds.",
+    "size": 91,
+    "reviews": 870,
+    "ratingAvg": 4.3,
+    "downloads": "0.075M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "image": "https://example.com/img4.png",
+    "title": "NoteEase",
+    "companyName": "BrightTech",
+    "id": 4,
+    "description": "NoteEase provides a quick and reliable way to jot down ideas, tasks, and notes anytime. It offers cloud synchronization so your thoughts stay safe and accessible across all devices. You can categorize your notes with tags, voice input, and even attach images or files. Its minimalist design helps you focus on content rather than distractions. Perfect for students, professionals, and creatives who need an effortless note-taking solution.",
+    "size": 24,
+    "reviews": 960,
+    "ratingAvg": 4.6,
+    "downloads": "0.064M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 455 }
+    ]
+  },
+  {
+    "image": "https://example.com/img5.png",
+    "title": "BudgetBee",
+    "companyName": "FinGrow",
+    "id": 5,
+    "description": "BudgetBee helps you take control of your finances by tracking income, expenses, and savings goals. It visualizes your spending habits with colorful charts and smart insights. You can create custom categories, set limits, and receive alerts before overspending. The app syncs securely across all your devices, keeping your data private and organized. With BudgetBee, financial management becomes simple, empowering, and stress-free.",
+    "size": 33,
+    "reviews": 430,
+    "ratingAvg": 4.1,
+    "downloads": "0.054M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "https://example.com/img6.png",
+    "title": "Langly",
+    "companyName": "EduWorld",
+    "id": 6,
+    "description": "Langly makes language learning engaging and effective through gamified lessons and real-time conversation practice. The AI tutor adjusts to your pace and tracks your progress daily. You can chat with native speakers, complete quizzes, and earn badges for milestones. Interactive visuals and audio examples improve comprehension and memory. With Langly, mastering a new language feels fun rather than frustrating.",
+    "size": 89,
+    "reviews": 2190,
+    "ratingAvg": 4.8,
+    "downloads": "0.34M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 1380 }
+    ]
+  },
+  {
+    "image": "https://example.com/img7.png",
+    "title": "RideSmart",
+    "companyName": "UrbanMove",
+    "id": 7,
+    "description": "RideSmart connects drivers and riders within seconds, making daily commutes smoother and cheaper. It automatically detects nearby rides based on your location and preferences. With verified users and real-time tracking, your journey stays safe and transparent. Payment options are flexible, and carpooling saves both time and cost. Whether you're heading to work or a night out, RideSmart ensures reliable transport anytime.",
+    "size": 70,
+    "reviews": 1420,
+    "ratingAvg": 4.4,
+    "downloads": "0.095M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 370 },
+      { "name": "5 star", "count": 720 }
+    ]
+  },
+  {
+    "image": "https://example.com/img8.png",
+    "title": "MindZen",
+    "companyName": "PeaceLabs",
+    "id": 8,
+    "description": "MindZen offers guided meditations, breathing exercises, and mindfulness lessons to reduce stress and improve focus. Each session is crafted by experts to fit your emotional state and lifestyle. The app tracks your mental health progress over time and suggests personalized routines. Ambient sounds and daily challenges make meditation enjoyable and consistent. MindZen is your digital companion for living calmer and happier.",
+    "size": 56,
+    "reviews": 3600,
+    "ratingAvg": 4.9,
+    "downloads": "0.48M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 2740 }
+    ]
+  },
+  {
+    "image": "https://example.com/img9.png",
+    "title": "GameBoost",
+    "companyName": "PlayEdge",
+    "id": 9,
+    "description": "GameBoost optimizes your mobile performance for smoother gaming without lag or overheating. It automatically closes background apps and adjusts system resources intelligently. With real-time performance monitoring, you can see frame rates and temperature instantly. The app also offers customization modes for different games. Whether casual or competitive, GameBoost enhances your experience with one tap.",
+    "size": 47,
+    "reviews": 870,
+    "ratingAvg": 4.0,
+    "downloads": "0.064M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "image": "https://example.com/img10.png",
+    "title": "ShopEase",
+    "companyName": "RetailTech",
+    "id": 10,
+    "description": "ShopEase is your ultimate shopping companion, offering personalized deals, quick checkout, and order tracking. You can browse millions of products, compare prices, and get recommendations based on your preferences. The app includes secure payment options, wishlists, and instant notifications for sales. It also supports fast delivery tracking and return management. ShopEase makes online shopping seamless, fun, and rewarding for every user.",
+    "size": 52,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1190 }
+    ]
+  },
+  {
+    "image": "https://example.com/img11.png",
+    "title": "TravelMate",
+    "companyName": "GlobeTrek",
+    "id": 11,
+    "description": "TravelMate helps you plan trips efficiently by offering flight, hotel, and activity bookings all in one app. You can discover hidden gems, read reviews, and create custom itineraries. The app also includes offline maps, travel guides, and real-time notifications for changes. Social sharing lets you plan trips with friends or family easily. TravelMate ensures your travel experience is smooth, enjoyable, and memorable.",
+    "size": 68,
+    "reviews": 1800,
+    "ratingAvg": 4.5,
+    "downloads": "0.95M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 1010 }
+    ]
+  },
+  {
+    "image": "https://example.com/img12.png",
+    "title": "Foodify",
+    "companyName": "EatSmart",
+    "id": 12,
+    "description": "Foodify makes discovering and ordering food faster and more convenient than ever. Browse local restaurants, read reviews, and get recommendations based on your taste. You can track orders in real-time, schedule deliveries, and enjoy secure payment options. The app also provides personalized offers and discounts for loyal users. Foodify brings delicious meals to your doorstep effortlessly.",
+    "size": 60,
+    "reviews": 2450,
+    "ratingAvg": 4.7,
+    "downloads": "2.3M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://example.com/img13.png",
+    "title": "FitTrack",
+    "companyName": "HealthTech",
+    "id": 13,
+    "description": "FitTrack helps you monitor your health and fitness goals with precision. Track steps, calories, heart rate, and sleep patterns seamlessly. The app includes AI-based suggestions for workouts and nutrition. You can set reminders, join challenges, and connect with friends for motivation. FitTrack transforms personal wellness into an achievable and fun routine every day.",
+    "size": 72,
+    "reviews": 1980,
+    "ratingAvg": 4.6,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 1010 }
+    ]
+  },
+  {
+    "image": "https://example.com/img14.png",
+    "title": "NewsWave",
+    "companyName": "InfoStream",
+    "id": 14,
+    "description": "NewsWave keeps you updated with breaking news, trending stories, and personalized content. You can follow topics of interest, save articles for later, and share with friends easily. The app includes video clips, podcasts, and in-depth analysis from reliable sources. Push notifications ensure you never miss important updates. NewsWave makes staying informed simple and engaging for everyone.",
+    "size": 45,
+    "reviews": 1340,
+    "ratingAvg": 4.3,
+    "downloads": "0.78M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "https://example.com/img15.png",
+    "title": "PhotoSnap",
+    "companyName": "PixelWorks",
+    "id": 15,
+    "description": "PhotoSnap is a powerful photo editing app with a wide range of filters, effects, and retouching tools. Enhance your photos, adjust colors, and apply artistic styles effortlessly. You can create collages, share on social media, and save in high resolution. The app offers intuitive gestures and easy navigation for a smooth experience. PhotoSnap makes photo editing fun, fast, and professional.",
+    "size": 88,
+    "reviews": 1120,
+    "ratingAvg": 4.5,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://example.com/img16.png",
+    "title": "BookHive",
+    "companyName": "ReadWorld",
+    "id": 16,
+    "description": "BookHive is a digital library offering millions of eBooks, audiobooks, and personalized recommendations. Track your reading progress, set goals, and join reading communities. The app allows note-taking, bookmarking, and syncing across multiple devices. With curated collections and daily suggestions, discovering new favorites is easy. BookHive makes reading enjoyable and accessible anywhere, anytime.",
+    "size": 55,
+    "reviews": 860,
+    "ratingAvg": 4.4,
+    "downloads": "0.95M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://example.com/img17.png",
+    "title": "WeatherWise",
+    "companyName": "SkyTech",
+    "id": 17,
+    "description": "WeatherWise delivers accurate weather forecasts, alerts, and climate insights for any location. You can check hourly, daily, or weekly predictions with detailed maps. The app includes radar views, storm warnings, and customizable notifications. Its simple interface makes weather information accessible at a glance. WeatherWise ensures you stay prepared and informed no matter the conditions.",
+    "size": 48,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": "0.84M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 405 }
+    ]
+  },
+  {
+    "image": "https://example.com/img18.png",
+    "title": "LearnAI",
+    "companyName": "EduTech",
+    "id": 18,
+    "description": "LearnAI offers interactive AI-based courses in coding, data science, and digital skills. You can progress at your own pace, complete quizzes, and earn certificates. The app provides real-time feedback, project-based learning, and personalized learning paths. Gamified challenges make learning engaging and motivating. LearnAI turns education into a fun and effective experience for learners of all levels.",
+    "size": 92,
+    "reviews": 1240,
+    "ratingAvg": 4.7,
+    "downloads": "1.3M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://example.com/img19.png",
+    "title": "MusicFlow",
+    "companyName": "SoundLabs",
+    "id": 19,
+    "description": "MusicFlow brings millions of songs and playlists right to your fingertips. Stream high-quality music, create playlists, and discover new artists daily. The app includes offline mode, personalized recommendations, and social sharing. You can also enjoy curated radio stations and live performances. MusicFlow makes listening to music immersive, convenient, and fun anywhere.",
+    "size": 75,
+    "reviews": 1580,
+    "ratingAvg": 4.8,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 510 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://example.com/img20.png",
+    "title": "TravelPix",
+    "companyName": "GlobeSnap",
+    "id": 20,
+    "description": "TravelPix is your photography companion for capturing and sharing travel memories. Apply filters, edit photos, and create albums easily. The app supports location tagging, cloud backup, and social sharing. You can join travel communities and participate in photo contests. TravelPix makes every travel experience visually memorable and interactive.",
+    "size": 64,
+    "reviews": 940,
+    "ratingAvg": 4.5,
+    "downloads": "0.87M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "https://example.com/img21.png",
+    "title": "DailyPlanner",
+    "companyName": "OrganizeIt",
+    "id": 21,
+    "description": "DailyPlanner helps you structure your day efficiently with tasks, events, and reminders. You can set priorities, recurring tasks, and custom notifications. The app includes analytics to review your productivity trends. Collaboration features allow you to coordinate with teams seamlessly. DailyPlanner turns organization into a stress-free and productive habit.",
+    "size": 50,
+    "reviews": 1110,
+    "ratingAvg": 4.6,
+    "downloads": "0.92M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://example.com/img22.png",
+    "title": "HealthyEats",
+    "companyName": "NutriTech",
+    "id": 22,
+    "description": "HealthyEats provides recipes, meal plans, and nutrition tracking for a balanced lifestyle. The app offers ingredient substitutions, calorie counters, and grocery lists. You can track progress and get personalized recommendations. Community challenges motivate users to adopt healthy habits. HealthyEats makes maintaining a nutritious diet easy and enjoyable.",
+    "size": 67,
+    "reviews": 1320,
+    "ratingAvg": 4.7,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "image": "https://example.com/img23.png",
+    "title": "CinemaNow",
+    "companyName": "MovieWorld",
+    "id": 23,
+    "description": "CinemaNow brings movie streaming and showtimes together in one app. Browse latest releases, trailers, and reviews. You can create watchlists, get ticket alerts, and enjoy personalized recommendations. The app supports offline downloads and multiple devices. CinemaNow makes enjoying films convenient and fun wherever you are.",
+    "size": 80,
+    "reviews": 1470,
+    "ratingAvg": 4.6,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 590 }
+    ]
+  },
+  {
+    "image": "https://example.com/img24.png",
+    "title": "MindFit",
+    "companyName": "WellnessPro",
+    "id": 24,
+    "description": "MindFit offers mental health exercises, meditation, and stress-relief activities. Track your mood, follow guided sessions, and set daily mindfulness goals. The app includes reminders, tips, and expert advice for improving focus and relaxation. Community challenges encourage consistency and engagement. MindFit ensures you nurture your mind and live a calmer, balanced life.",
+    "size": 59,
+    "reviews": 980,
+    "ratingAvg": 4.8,
+    "downloads": "0.98M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 370 }
+    ]
+  }
+]
+
+
+
