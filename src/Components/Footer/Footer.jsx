@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 const Footer = () => {
     return (
         
-        <footer >
+        <footer className='max-w-7xl mx-auto'>
     <div className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">        
   <aside>
     
@@ -33,7 +33,7 @@ const Footer = () => {
     <a className="link link-hover">Cookie policy</a>
   </nav>
   </div>
-  <p className='text-center'>Copyright © 2025 - All right reserved</p>
+  <p className='text-center font-bold'>Copyright © 2025 - All right reserved</p>
 </footer>
     );
 };

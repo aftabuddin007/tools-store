@@ -4,7 +4,8 @@ import { Link } from 'react-router';
 import { FaGithubSquare } from "react-icons/fa";
 const Header = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className='max-w-7xl mx-auto shadow-sm'>
+          <div className="navbar bg-base-100 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,12 +22,12 @@ const Header = () => {
     </div>
     <div className='flex'>
         <img src={logo} alt="" className='h-[40px]'/>
-<a className="btn btn-ghost text-xl text-[#632EE3]">HERO.IO</a>
+<a className="btn btn-ghost text-xl text-[#632EE3] font-semibold">HERO.IO</a>
     </div>
     
   </div>
   <div className="navbar-center hidden lg:flex  ">
-    <ul className="menu menu-horizontal px-1 gap-3">
+    <ul className="menu menu-horizontal px-1 gap-3 text-xl font-semibold">
       <Link><a className='hover:text-[#632EE3] hover:underline '>Home</a></Link>
       <Link><a className='hover:text-[#632EE3] hover:underline'>Apps</a></Link>
       
@@ -35,10 +36,11 @@ const Header = () => {
   </div>
   <div className="navbar-end ">
     
-    <a className="btn text-[white] bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)]
-"><FaGithubSquare /> Contribute</a>
+    <Link to='https://github.com/aftabuddin007' className="btn text-[white] bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)]
+"><FaGithubSquare /> Contribute</Link>
   </div>
 </div>
+        </div>
     );
 };
 
