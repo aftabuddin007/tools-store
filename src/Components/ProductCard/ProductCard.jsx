@@ -18,7 +18,7 @@ const ProductCard = ({pro}) => {
     <h2 className="text-xl font-semibold mb-2">Name:{title}</h2>
     
     <div className="flex justify-between">
-        <p className="px-2 py-1 text-green-400 bg-[#F1F5E8] flex items-center gap-2"><PiDownloadSimpleBold />{downloads}</p>
+        <p className="px-2 py-1 text-green-400 bg-[#F1F5E8] flex items-center gap-2"><PiDownloadSimpleBold />{downloads}M</p>
       <p className="px-2 py-1 text-yellow-400 bg-[#F1F5E8] flex items-center gap-2"><FaStar />{ ratingAvg}</p>
       
     </div>

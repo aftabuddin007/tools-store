@@ -11,7 +11,7 @@ const {products}=useProducts()
                 <p className='text-[#627382] my-2'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
             <div className='flex justify-between'>
-                {products.length} Apps Found
+                <p className='text-xl font-semibold'>({products.length}) Apps Found</p>
             <label className="input">
   <input type="search"  placeholder="Search Products" />
 </label></div>

@@ -20,7 +20,7 @@ const Installation = () => {
 </select></div>
         </div>
         {/* <AllError></AllError> */}
-        <AppError></AppError>
+        {/* <AppError></AppError> */}
         </div>
     );
 };
