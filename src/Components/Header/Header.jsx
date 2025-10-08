@@ -14,10 +14,10 @@ const Header = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-       <Link><a className='hover:text-[#632EE3] hover:underline'>Home</a></Link>
-      <Link><a className='hover:text-[#632EE3] hover:underline'>Apps</a></Link>
+       <Link to='/'><a className='hover:text-[#632EE3] hover:underline '>Home</a></Link>
+      <Link to='/products'><a className='hover:text-[#632EE3] hover:underline'>Apps</a></Link>
       
-      <Link><a className='hover:text-[#632EE3] hover:underline'>Installation</a></Link>
+      <Link to='/install'><a className='hover:text-[#632EE3] hover:underline'>Installation</a></Link>
       </ul>
     </div>
     <div className='flex'>

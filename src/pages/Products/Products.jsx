@@ -15,7 +15,7 @@ const {products}=useProducts()
             <label className="input">
   <input type="search"  placeholder="Search Products" />
 </label></div>
-            <div className='grid grid-cols-4 gap-6'>
+            <div className='grid grid-cols-1 place-items-center sm:grid-cols-4 gap-6'>
                 {
                     products.map(pro=>(<ProductCard pro={pro}></ProductCard>))
                 }

@@ -5,6 +5,7 @@ import Home from '../pages/Home/Home';
 import Products from '../pages/Products/Products';
 import Installation from '../pages/Installation/Installation';
 import Banner from '../pages/Banner/Banner';
+import ProductDetails from '../pages/ProductDetails/ProductDetails';
 
 const router = createBrowserRouter([{
  path:'/',
@@ -21,6 +22,9 @@ const router = createBrowserRouter([{
  {
   path:'/install',
   element:<Installation></Installation>
+},{
+  path:'/productDetail/:id',
+  element:<ProductDetails></ProductDetails>
 }
   ]
 }])

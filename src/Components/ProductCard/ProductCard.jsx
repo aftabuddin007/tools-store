@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaStar } from "react-icons/fa";
 import { PiDownloadSimpleBold } from "react-icons/pi";
+import { Link } from 'react-router';
 
 const ProductCard = ({pro}) => {
-    const {image,title,ratingAvg,downloads}=pro
+    const {image,title,ratingAvg,downloads,id}=pro
     return (
-        <div className='shadow-lg rounded-md hover:scale-105 transition ease-in-out'>
+        <Link to={`/productDetail/${id}`} key={pro.id} className='shadow-lg rounded-md hover:scale-105 transition ease-in-out cursor-pointer'>
             <div className="    p-4">
   <figure className="h-[250px] w-[250px] p-3 bg-gray-300 ">
     <img
@@ -23,7 +24,7 @@ const ProductCard = ({pro}) => {
     </div>
   </div>
 </div>
-        </div>
+        </Link>
     );
 };
 
