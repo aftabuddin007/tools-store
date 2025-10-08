@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router';
 import useProducts from '../../Components/Hooks/useProducts';
 import { LuDownload } from "react-icons/lu";
@@ -14,11 +14,29 @@ import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAx
 const ProductDetails = () => {
     const {id} = useParams()
     const {products}=useProducts()
-    const product = products.find(p=>String(p.id)===id)
+    const product = products.find(p=>String(p.id)=== id)
     const {image,title,companyName,size,downloads,ratingAvg,reviews,ratings,description} = product ||{}
+   
+
+  const [install,setInstall]=useState(false)
 
   const handleInstall=()=>{
-    const existingList = JSON.parse(localStorage.getItem('wishlist'))
+    setInstall(true)
+     const existingList = JSON.parse(localStorage.getItem('wishlist'))
+      let updatedList = []
+        if(existingList){
+          // const isDuplicated = existingList.some(p=>p.id === product.id)
+          // if(isDuplicated)
+          //   return alert ("soorryy vvaaaiii")
+          
+           updatedList = [...existingList,product]
+        }else{
+          updatedList.push(product)
+        }
+
+
+
+    localStorage.setItem('wishlist',JSON.stringify(updatedList))
   }
 
 
@@ -55,7 +73,7 @@ const ProductDetails = () => {
             
         </div>
       </div>
-      <button onClick={()=>handleInstall()} className="btn btn-active btn-success text-[#ffffff] mb-6">Install Now ({size} MB)</button>
+      <button onClick={()=>handleInstall()} disabled={install} className="btn btn-active btn-success text-[#ffffff] mb-6 disabled:!bg-green-700">{install?'Install':`Install Now (${size} MB)`}</button>
     </div>
   </div>
   
