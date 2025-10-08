@@ -1,4 +1,6 @@
 import React from 'react';
+import AllError from '../../AllError/AllError';
+import AppError from '../../AllError/AppError';
 
 const Installation = () => {
     return (
@@ -16,7 +18,10 @@ const Installation = () => {
   <option>Small Orange</option>
   <option>Small Tomato</option>
 </select></div>
-        </div></div>
+        </div>
+        {/* <AllError></AllError> */}
+        <AppError></AppError>
+        </div>
     );
 };
 
