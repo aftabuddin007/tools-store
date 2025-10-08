@@ -1,11 +1,25 @@
 import React from 'react';
+import useProducts from '../../Components/Hooks/useProducts';
+import ProductCard from '../../Components/ProductCard/ProductCard';
 
 const Home = () => {
+
+    const {products,loading,error}=useProducts()
+    const featuredProduct = products.slice(0,8)
+    
     return (
-        <div>
-            <h2>Trending Apps</h2>
-            <p>Explore All Trending Apps on the Market developed by us</p>
-            
+        <div className='max-w-7xl mx-auto mt-20 '>
+            <div className='text-center'>
+                <h2 className='text-5xl  font-bold mb-4'>Trending Apps</h2>
+            <p className='text-[#627382] my-2'>Explore All Trending Apps on the Market developed by us</p></div>
+            <div className='grid grid-cols-4 mt-20 gap-6'>
+
+                {
+                    featuredProduct.map(pro=>(<ProductCard pro={pro}></ProductCard>)) 
+                }
+
+
+            </div>
         </div>
     );
 };

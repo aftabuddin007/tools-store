@@ -22,16 +22,16 @@ const Header = () => {
     </div>
     <div className='flex'>
         <img src={logo} alt="" className='h-[40px]'/>
-<a className="btn btn-ghost text-xl text-[#632EE3] font-semibold">HERO.IO</a>
+<Link to='/' className="btn btn-ghost text-xl text-[#632EE3] font-semibold">HERO.IO</Link>
     </div>
     
   </div>
   <div className="navbar-center hidden lg:flex  ">
     <ul className="menu menu-horizontal px-1 gap-3 text-xl font-semibold">
-      <Link><a className='hover:text-[#632EE3] hover:underline '>Home</a></Link>
-      <Link><a className='hover:text-[#632EE3] hover:underline'>Apps</a></Link>
+      <Link to='/'><a className='hover:text-[#632EE3] hover:underline '>Home</a></Link>
+      <Link to='/products'><a className='hover:text-[#632EE3] hover:underline'>Apps</a></Link>
       
-      <Link><a className='hover:text-[#632EE3] hover:underline'>Installation</a></Link>
+      <Link to='/install'><a className='hover:text-[#632EE3] hover:underline'>Installation</a></Link>
     </ul>
   </div>
   <div className="navbar-end ">
