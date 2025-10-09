@@ -9,7 +9,7 @@ import Loading from '../pages/Loading/Loading';
 const Root = () => {
     const location = useLocation();
   const [loading, setLoading] = useState(false);
-console.log(loading)
+// console.log(loading)
   useEffect(() => {
     setLoading(true);
     const timeout = setTimeout(() => setLoading(false), 800); 

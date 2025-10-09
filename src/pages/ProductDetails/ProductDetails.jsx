@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router';
+import React, {  useEffect, useState } from 'react';
+import {  useParams } from 'react-router';
 import useProducts from '../../Components/Hooks/useProducts';
 import { LuDownload } from "react-icons/lu";
 import { FaStar } from "react-icons/fa";
@@ -26,27 +26,61 @@ const ProductDetails = () => {
     const {image,title,companyName,size,downloads,ratingAvg,reviews,ratings,description} = product ||{}
    
 
-  const [install,setInstall]=useState(false)
+  // const [install,setInstall]=useState(false)
 
-  const handleInstall=()=>{
-    setInstall(true)
-     const existingList = JSON.parse(localStorage.getItem('wishlist'))
-      let updatedList = []
-        if(existingList){
-          // const isDuplicated = existingList.some(p=>p.id === product.id)
+  // const handleInstall=()=>{
+  //   setInstall(true)
+  //    const existingList = JSON.parse(localStorage.getItem('wishlist'))
+  //     let updatedList = []
+  //       if(existingList){
+  //         // const isDuplicated = existingList.some(p=>p.id === product.id)
           
           
-           updatedList = [...existingList,product]
-        }else{
-          updatedList.push(product)
-        }
+  //          updatedList = [...existingList,product]
+  //       }else{
+  //         updatedList.push(product)
+  //       }
 
             
       
 
-    localStorage.setItem('wishlist',JSON.stringify(updatedList))
-  return toast ("Your Application is add the Installations")
+  //   localStorage.setItem('wishlist',JSON.stringify(updatedList))
+  // return toast ("Your Application is add the Installations")
+  // }
+const [install, setInstall] = useState(false);
+
+useEffect(() => {
+  // Check if the current product is already installed
+  const existingList = JSON.parse(localStorage.getItem('wishlist')) || [];
+  const isInstalled = existingList.some(p => p.id === product?.id);
+  if (isInstalled) {
+    setInstall(true);
   }
+}, [product]);
+
+const handleInstall = () => {
+  setInstall(true);
+
+  const existingList = JSON.parse(localStorage.getItem('wishlist')) || [];
+  const isDuplicated = existingList.some(p => p.id === product.id);
+
+  if (!isDuplicated) {
+    const updatedList = [...existingList, product];
+    localStorage.setItem('wishlist', JSON.stringify(updatedList));
+  }
+
+  toast("Your application has been added to installations");
+};
+
+
+
+
+
+
+
+
+
+
 
 
     return (
