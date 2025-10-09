@@ -3,6 +3,8 @@ import AllError from '../../AllError/AllError';
 import AppError from '../../AllError/AppError';
 import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
+import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 
 const Installation = () => {
 
@@ -40,7 +42,7 @@ const handleRemove =  id =>{
         setInstallList(updatedList)
 
         localStorage.setItem('wishlist',JSON.stringify(updatedList))
-        return alert('remove the product')
+        return toast('remove the product')
     }
 
 
@@ -65,7 +67,7 @@ const handleRemove =  id =>{
 
         <div>
             {
-                sortItem.map(p=>((<div className='flex justify-between px-10 items-center  p-3 bg-[#ffffff] mb-3'>
+                sortItem.map(p=>(<div className='flex justify-between px-10 items-center  p-3 bg-[#ffffff] mb-3'>
                 <div className=' flex gap-4 items-center'>
                 <img className='h-[100px]' src={p.image} alt="" />
                 <div>
@@ -83,7 +85,7 @@ const handleRemove =  id =>{
                 <div className='flex gap-10'>
                     
                     <button onClick={()=>handleRemove(p.id)} className='btn  btn-accent'>Delete</button>
-                </div></div>)))
+                </div></div>))
             }
         </div>
 

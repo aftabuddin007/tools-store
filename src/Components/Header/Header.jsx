@@ -1,8 +1,17 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import { FaGithubSquare } from "react-icons/fa";
 const Header = () => {
+
+const navlinkClass = ({isActive})=>
+  isActive?'text-[#632EE3] underline font-bold':'hover:text-[#632EE3] hover:underline';
+
+
+
+
+
+
     return (
         <div className='max-w-7xl mx-auto shadow-sm'>
           <div className="navbar bg-base-100 ">
@@ -14,10 +23,10 @@ const Header = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-       <Link to='/'><a className='hover:text-[#632EE3] hover:underline '>Home</a></Link>
-      <Link to='/products'><a className='hover:text-[#632EE3] hover:underline'>Apps</a></Link>
+       <NavLink to='/' className={navlinkClass}><a >Home</a></NavLink>
+      <NavLink to='/products' className={navlinkClass}><a >Apps</a></NavLink>
       
-      <Link to='/install'><a className='hover:text-[#632EE3] hover:underline'>Installation</a></Link>
+      <NavLink to='/install' className={navlinkClass}><a >Installation</a></NavLink>
       </ul>
     </div>
     <div className='flex'>
@@ -28,10 +37,10 @@ const Header = () => {
   </div>
   <div className="navbar-center hidden lg:flex  ">
     <ul className="menu menu-horizontal px-1 gap-3 text-xl font-semibold">
-      <Link to='/'><a className='hover:text-[#632EE3] hover:underline '>Home</a></Link>
-      <Link to='/products'><a className='hover:text-[#632EE3] hover:underline'>Apps</a></Link>
+      <NavLink to='/' className={navlinkClass}><a >Home</a></NavLink>
+      <NavLink to='/products' className={navlinkClass}><a >Apps</a></NavLink>
       
-      <Link to='/install'><a className='hover:text-[#632EE3] hover:underline'>Installation</a></Link>
+      <NavLink to='/install' className={navlinkClass}><a >Installation</a></NavLink>
     </ul>
   </div>
   <div className="navbar-end ">

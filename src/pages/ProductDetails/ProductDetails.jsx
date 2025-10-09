@@ -5,6 +5,7 @@ import { LuDownload } from "react-icons/lu";
 import { FaStar } from "react-icons/fa";
 import { BiLike } from "react-icons/bi";
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { toast} from 'react-toastify';
 
 
 
@@ -26,18 +27,18 @@ const ProductDetails = () => {
       let updatedList = []
         if(existingList){
           // const isDuplicated = existingList.some(p=>p.id === product.id)
-          // if(isDuplicated)
-          //   return alert ("soorryy vvaaaiii")
+          
           
            updatedList = [...existingList,product]
         }else{
           updatedList.push(product)
         }
 
+            
       
 
     localStorage.setItem('wishlist',JSON.stringify(updatedList))
-  return alert('add the app')
+  return toast ("Your Application is add the Installations")
   }
 
 
@@ -139,6 +140,7 @@ const ProductDetails = () => {
         </div>
         </div>
     );
+    
 };
 
 export default ProductDetails;
