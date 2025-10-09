@@ -75,7 +75,7 @@ const ProductDetails = () => {
             
         </div>
       </div>
-      <button onClick={()=>handleInstall()} disabled={install} className="btn btn-active btn-success text-[#ffffff] mb-6 disabled:!bg-green-700">{install?'Install':`Install Now (${size} MB)`}</button>
+      <button onClick={()=>handleInstall()} disabled={install} className="btn btn-active btn-success text-[#ffffff] mb-6 disabled:!bg-green-700">{install?'Installed':`Install Now (${size} MB)`}</button>
     </div>
   </div>
   

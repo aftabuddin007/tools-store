@@ -42,7 +42,7 @@ const handleRemove =  id =>{
         setInstallList(updatedList)
 
         localStorage.setItem('wishlist',JSON.stringify(updatedList))
-        return toast('remove the product')
+        return toast('Uninstalled Successful  ')
     }
 
 
@@ -84,7 +84,7 @@ const handleRemove =  id =>{
                 </div>
                 <div className='flex gap-10'>
                     
-                    <button onClick={()=>handleRemove(p?.id)} className='btn  btn-accent'>Delete</button>
+                    <button onClick={()=>handleRemove(p?.id)} className='btn  btn-accent'>Uninstall</button>
                 </div></div>))
             }
         </div>
