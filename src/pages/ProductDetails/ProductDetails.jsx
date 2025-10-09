@@ -88,44 +88,18 @@ const ProductDetails = () => {
       <BarChart
         
         data={ratings || []}
-        
+        layout="vertical"
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name"/>
-        <YAxis  />
+        <XAxis type="number"/>
+        <YAxis type="category" dataKey="name" />
         <Tooltip />
         <Legend />
         
-        <Bar dataKey="count"  fill="#82ca9d"  />
+        <Bar dataKey="count"  fill="#FF7A00"   />
       </BarChart>
     </ResponsiveContainer>
-    {/* <ResponsiveContainer width="100%" height="100%">
-      <BarChart
-        data={ratings || []}
-        layout="vertical" // ✅ makes it horizontal
-        margin={{ top: 10, right: 50, left: 50, bottom: 10 }}
-      >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis type="number" />
-        <YAxis type="category" dataKey="name" width={80} />
-        <Tooltip />
-        <Legend />
-        <Bar
-          dataKey="count"
-          fill="#FF7A00" // ✅ bright orange
-          barSize={30}
-          radius={[0, 8, 8, 0]} // rounded right corners
-          label={{
-            position: 'right', // ✅ value label at end of bar
-            fill: '#fff',
-            backgroundColor: '#FF4C00',
-            fontWeight: 'bold',
-            fontSize: 14,
-          }}
-        />
-      </BarChart>
-    </ResponsiveContainer> */}
-
+    
   </div>
   
    </div>
