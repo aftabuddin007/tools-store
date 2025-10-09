@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
-import { Link, NavLink } from 'react-router';
+import { Link, NavLink} from 'react-router';
 import { FaGithubSquare } from "react-icons/fa";
+import Loading from '../../pages/Loading/Loading';
+// import { useNavigation } from 'react-router';
 const Header = () => {
 
 const navlinkClass = ({isActive})=>
   isActive?'text-[#632EE3] underline font-bold':'hover:text-[#632EE3] hover:underline';
-
 
 
 

@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import { useParams } from 'react-router';
+import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router';
 import useProducts from '../../Components/Hooks/useProducts';
 import { LuDownload } from "react-icons/lu";
 import { FaStar } from "react-icons/fa";
 import { BiLike } from "react-icons/bi";
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { toast} from 'react-toastify';
+import AppError from '../../AllError/AppError';
 
 
 
@@ -14,8 +15,14 @@ import { toast} from 'react-toastify';
 
 const ProductDetails = () => {
     const {id} = useParams()
+
+
+
     const {products}=useProducts()
     const product = products.find(p=>String(p.id)=== id)
+  console.log(product)
+
+
     const {image,title,companyName,size,downloads,ratingAvg,reviews,ratings,description} = product ||{}
    
 
@@ -43,7 +50,7 @@ const ProductDetails = () => {
 
 
     return (
-        <div className='max-w-7xl mx-auto'>
+        product?<div className='max-w-7xl mx-auto'>
            <div className=" ">
   <div className="flex  sm:gap-20 flex-col items-center sm:flex-row border-2-b border-b border-gray-300">
     <img 
@@ -112,7 +119,7 @@ const ProductDetails = () => {
 
   </div>
         </div>
-        </div>
+        </div>:<AppError></AppError>
     );
     
 };
