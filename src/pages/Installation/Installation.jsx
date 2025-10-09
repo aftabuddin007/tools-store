@@ -7,13 +7,29 @@ import { FaStar } from "react-icons/fa";
 const Installation = () => {
 
     const [installList,setInstallList]=useState([])
-
+    const [sortOrder,setSortOrder]=useState('none')
 useEffect(()=>{
     const saveList = JSON.parse(localStorage.getItem('wishlist'))
         if(saveList)setInstallList(saveList)
 
 },[])
     if(!installList.length) return (<AppError></AppError>)
+
+const sortItem = (()=>{
+    if(sortOrder ==='downloads-asc'){
+        return [...installList].sort((a,b)=>a.downloads - b.downloads)
+    }else if(
+        sortOrder === 'downloads-desc'
+    ){
+        return [...installList].sort((a,b)=>b.downloads - a.downloads)
+    }else{
+        return installList
+    }
+})()
+
+
+
+
 
 
 const handleRemove =  id =>{
@@ -24,6 +40,7 @@ const handleRemove =  id =>{
         setInstallList(updatedList)
 
         localStorage.setItem('wishlist',JSON.stringify(updatedList))
+        return alert('remove the product')
     }
 
 
@@ -39,16 +56,16 @@ const handleRemove =  id =>{
             </div>
             <div className='flex justify-between'>
                 {installList.length} Apps Found
-            <select defaultValue="Small" className="select select-sm">
-  <option disabled={true}>Small</option>
-  <option>Small Apple</option>
-  <option>Small Orange</option>
-  <option>Small Tomato</option>
+            <select Value={sortOrder} onChange={s=>setSortOrder(s.target.value)} defaultValue='Sort' className="select select-sm">
+  <option disabled={true}>Sort</option>
+  <option value='none'>Sort By Downloads</option>
+  <option value='downloads-asc'>Low -&gt High</option>
+  <option value='downloads-desc'>High -&gt Low</option>
 </select></div>
 
         <div>
             {
-                installList.map(p=>((<div className='flex justify-between px-10 items-center  p-3 bg-[#ffffff] mb-3'>
+                sortItem.map(p=>((<div className='flex justify-between px-10 items-center  p-3 bg-[#ffffff] mb-3'>
                 <div className=' flex gap-4 items-center'>
                 <img className='h-[100px]' src={p.image} alt="" />
                 <div>

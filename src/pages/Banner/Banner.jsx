@@ -4,6 +4,7 @@ import { FaAppStoreIos } from "react-icons/fa";
 import hero from '../../assets/hero.png'
 import HeroBanner from '../HeroBanner/HeroBanner';
 import Home from '../Home/Home';
+import { Link, Links } from 'react-router';
 const Banner = () => {
     return (
      <div >
@@ -15,9 +16,9 @@ const Banner = () => {
         At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.
       </p>
       <div className=' mb-8'>
-              <button className="btn mr-4"><FaGooglePlay />Google Play</button>
-      <button className="btn "><FaAppStoreIos />
-App Store</button>
+              <Link to='https://play.google.com/store/games?hl=en' className="btn mr-4"><FaGooglePlay />Google Play</Link>
+      <Link to='https://www.apple.com/app-store/' className="btn "><FaAppStoreIos />
+App Store</Link>
     </div>
     <img src={hero} alt="" /> 
     </div>

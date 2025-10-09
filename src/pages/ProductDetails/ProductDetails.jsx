@@ -34,9 +34,10 @@ const ProductDetails = () => {
           updatedList.push(product)
         }
 
-
+      
 
     localStorage.setItem('wishlist',JSON.stringify(updatedList))
+  return alert('add the app')
   }
 
 

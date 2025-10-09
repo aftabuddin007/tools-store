@@ -21,7 +21,7 @@ const Header = () => {
       </ul>
     </div>
     <div className='flex'>
-        <img src={logo} alt="" className='h-[40px]'/>
+        <Link to='/'>  <img src={logo} alt="" className='h-[40px]'/></Link>
 <Link to='/' className="btn btn-ghost text-xl text-[#632EE3] font-semibold">HERO.IO</Link>
     </div>
     
