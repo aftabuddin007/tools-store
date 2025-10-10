@@ -38,7 +38,7 @@ const handleRemove =  id =>{
      const existingList = JSON.parse(localStorage.getItem('wishlist'))
         
       let updatedList = existingList.filter(p=>p?.id !== id)
-        // for ui update prev=>prev.filter(p=>p.id!==id)
+        
         setInstallList(updatedList)
 
         localStorage.setItem('wishlist',JSON.stringify(updatedList))

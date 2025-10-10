@@ -94,7 +94,7 @@ const handleInstall = () => {
     <div className=''>
       <div className='border-2- border-b border-gray-300 mt-15'>
         <h1 className="text-5xl font-bold mb-3">{title}</h1>
-      <p className='mb-3 text-[#627382]'>Developed by {companyName}</p>
+      <p className='mb-3 text-[#627382]'>Developed by <span className='text-[#632EE3] font-bold'>{companyName}</span></p>
       </div>
       <div>
         <div className='flex-col flex justify-between sm:flex-row gap-10 mt-7 mb-10'>
@@ -116,7 +116,7 @@ const handleInstall = () => {
             
         </div>
       </div>
-      <button onClick={()=>handleInstall()} disabled={install} className="btn btn-active btn-success text-[#ffffff] mb-6 disabled:!bg-green-700">{install?'Installed':`Install Now (${size} MB)`}</button>
+      <button onClick={()=>handleInstall()} disabled={install} className="btn btn-active btn-success  text-[#ffffff] mb-6 disabled:!bg-green-700">{install?'Installed':`Install Now (${size} MB)`}</button>
     </div>
   </div>
   

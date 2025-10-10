@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router';
 const Footer = () => {
     return (
         
@@ -7,10 +8,10 @@ const Footer = () => {
     <div className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">        
   <aside>
     
-     <div className='flex'>
+     <Link className='flex'>
             <img src={logo} alt="" className='h-[40px]'/>
     <a className="btn btn-ghost text-xl text-[#632EE3]">HERO.IO</a>
-        </div>
+        </Link>
   </aside>
   <nav>
     <h6 className="footer-title">Services</h6>
