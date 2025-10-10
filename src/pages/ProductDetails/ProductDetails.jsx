@@ -50,7 +50,7 @@ const ProductDetails = () => {
 const [install, setInstall] = useState(false);
 
 useEffect(() => {
-  // Check if the current product is already installed
+  
   const existingList = JSON.parse(localStorage.getItem('wishlist')) || [];
   const isInstalled = existingList.some(p => p.id === product?.id);
   if (isInstalled) {
