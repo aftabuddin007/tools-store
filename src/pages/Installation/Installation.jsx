@@ -61,8 +61,8 @@ const handleRemove =  id =>{
             <select Value={sortOrder} onChange={s=>setSortOrder(s.target.value)} defaultValue='Sort' className="select select-sm">
   <option disabled={true}>Sort</option>
   <option value='none'>Sort By Downloads</option>
-  <option value='downloads-asc'>Low -&gt High</option>
-  <option value='downloads-desc'>High -&gt Low</option>
+  <option value='downloads-asc'>Low &gt; High</option>
+  <option value='downloads-desc'>High &gt; Low</option>
 </select></div>
 
         <div>
