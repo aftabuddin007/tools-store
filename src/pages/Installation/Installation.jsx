@@ -56,7 +56,7 @@ const handleRemove =  id =>{
                 <h2 className='text-5xl  font-bold mb-4'>Your Installed Apps</h2>
                 <p className='text-[#627382] my-2'>Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div className='flex justify-between text-xl font-semibold'>
+            <div className='flex justify-between text-[14px] sm:text-xl font-semibold'>
                 {installList.length} Apps Found
             <select Value={sortOrder} onChange={s=>setSortOrder(s.target.value)} defaultValue='Sort' className="select select-sm">
   <option disabled={true}>Sort</option>
@@ -67,12 +67,12 @@ const handleRemove =  id =>{
 
         <div>
             {
-                sortItem?.map(p=>(<div className='flex justify-between px-10 items-center  p-3 bg-[#ffffff] mb-3'>
+                sortItem?.map(p=>(<div className='flex justify-between sm:px-10 items-center  p-3 bg-[#ffffff] mb-3'>
                 <div className=' flex gap-4 items-center'>
                 <img className='h-[100px]' src={p?.image} alt="" />
                 <div>
                     <p className='text-xl font-bold mb-6'>{p?.title}</p>
-                <div className='flex gap-5 text-[7px] sm:text-xl '>
+                <div className='flex gap-5 text-[9px] sm:text-xl '>
                     <p className='flex items-center text-green-400'><FaDownload />
  {p?.downloads}M</p>
                     <p className='flex items-center text-yellow-400'><FaStar />

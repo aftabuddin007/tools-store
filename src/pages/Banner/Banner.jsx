@@ -9,7 +9,7 @@ const Banner = () => {
     return (
      <div >
         <div className="hero bg-base-200 ">
-  <div className="hero-content text-center">
+  <div className="hero-content text-center overflow-x-hidden">
     <div className="">
       <h1 className="text-5xl font-bold text-[#001931]">We Build <br /><span className='text-[#632EE3]'>Productive</span> Apps</h1>
       <p className="py-6 text-[#627382]">

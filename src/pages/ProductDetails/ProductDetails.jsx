@@ -93,24 +93,24 @@ const handleInstall = () => {
     />
     <div className=''>
       <div className='border-2- border-b border-gray-300 mt-15'>
-        <h1 className="text-5xl font-bold">{title}</h1>
-      <p>Developed by {companyName}</p>
+        <h1 className="text-5xl font-bold mb-3">{title}</h1>
+      <p className='mb-3 text-[#627382]'>Developed by {companyName}</p>
       </div>
       <div>
         <div className='flex-col flex justify-between sm:flex-row gap-10 mt-7 mb-10'>
             <div className=''>
                 <p className='text-3xl font-semibold text-green-400'><LuDownload /></p>
-                <p>Downloads</p>
+                <p className='text-[#627382]'>Downloads</p>
                 <h2 className='text-4xl font-bold'>{downloads}M</h2>
             </div>
             <div>
                 <p className='text-3xl font-semibold text-yellow-400'><FaStar /></p>
-                <p>Average Ratings</p>
+                <p className='text-[#627382]'>Average Ratings</p>
                 <h2 className='text-4xl font-bold'>{ratingAvg}</h2>
             </div>
             <div>
                 <p className='text-3xl font-semibold text-purple-400'><BiLike /></p>
-                <p>Total Reviews</p>
+                <p className='text-[#627382]'>Total Reviews</p>
                 <h2 className='text-4xl font-bold'>{reviews}K</h2>
             </div>
             
@@ -123,7 +123,7 @@ const handleInstall = () => {
 </div>
 {/* rechart option */}
 <div className='space-y-3 mt-6'>
-  <h3 className='text-xl font-bold'>Ratings</h3>
+  <h3 className='text-2xl font-bold'>Ratings</h3>
   <div className='bg-base-100 border-2- border-b border-gray-300 p-4 h-80'>
     <ResponsiveContainer width="100%" height="100%">
       <BarChart
@@ -145,8 +145,8 @@ const handleInstall = () => {
   
    </div>
 <div className='space-y-3 mt-10'>
-  <h3 className='text-xl font-bold'>Description</h3>
-  <div className='bg-base-100   p-4 h-80'>
+  <h3 className='text-2xl font-bold'>Description</h3>
+  <div className='bg-base-100 text-[#627382]  p-4 h-80'>
 <p>{description}</p>
 
 

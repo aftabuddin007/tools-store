@@ -53,14 +53,14 @@ useEffect(() => {
                 <h2 className='text-5xl  font-bold mb-4'>Our All Applications</h2>
                 <p className='text-[#627382] my-2'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
-            <div className='flex justify-between items-center mb-7'>
-                <p className='text-xl font-semibold'>({searchProduct.length}) Apps Found</p>
-            <label className="input">
+            <div className='flex justify-between items-center mb-7 px-2'>
+                <p className='text-[14px] sm:text-xl font-semibold'>({searchProduct.length}) Apps Found</p>
+            <label className="input ">
   <input onChange={s=>setSearch(s.target.value)} type="search" value={search} className='cursor-pointer' placeholder="Search Products" />
 </label></div>
             {loading ? (<Loading></Loading>) : <div className='grid grid-cols-1 place-items-center sm:grid-cols-4 gap-6 '>
                 {
-                    searchProduct.length >0 ?(searchProduct.map(pro=>(<ProductCard key={pro.id} pro={pro}></ProductCard>))):(<AppError></AppError>)
+                    searchProduct.length >0 ?(searchProduct.map(pro=>(<ProductCard key={pro.id} pro={pro}></ProductCard>))):(<div className='col-span-1 sm:col-span-4 sm:flex justify-center items-center h-[60vh] w-full'><AppError></AppError></div>)
                 }
             </div>}
         </div>
